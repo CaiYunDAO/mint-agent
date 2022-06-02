@@ -1,0 +1,30 @@
+{
+  "name": "mint-agent",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@dvuckovic/vue3-bootstrap-icons": "^1.0.5",
+    "@kyvg/vue3-notification": "^2.3.4",
+    "@walletconnect/web3-provider": "^1.7.8",
+    "axios": "^0.27.2",
+    "ethers": "^5.6.8",
+    "vue": "^3.2.25",
+    "vue3-loading-overlay": "0.0.0",
+    "web3modal": "^1.9.7"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "rollup-plugin-polyfill-node": "^0.9.0",
+    "tailwindcss": "^3.0.24",
+    "util": "^0.12.4",
+    "vite": "^2.9.9",
+    "vite-compatible-readable-stream": "^3.6.1"
+  }
+}

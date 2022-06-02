@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1);
+  min-height: 100vh;
+}
+
+.text-shadow {
+  text-shadow: 2px 3px 0px #898999
+}
+
+.web3modal-modal-lightbox {
+  z-index: 99 !important;
+}
+
+@layer components {
+  .btn {
+    @apply text-base font-medium rounded-lg p-3 shadow-xl hover:shadow-none;
+  }
+
+  .btn--primary {
+    @apply bg-[#d16ba5] hover:bg-[#c777b9] text-white;
+  }
+
+  .btn--secondary {
+    @apply bg-[#9a9ae1] hover:bg-[#86A8E7] text-slate-900;
+  }
+}
