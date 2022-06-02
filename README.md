@@ -11,3 +11,5 @@ Mint Agent 通过解析链上`transaction`数据，自动解析合约 方法和�
 ## 使用
 
 访问 [Mint Agent](https://mint-agent.caiyundao.xyz)，输入链上 MINT 的 transaction hash 即可进入 MINT 界面，或者加入我们的 Discord 群，群内有`Free Mint机器人`自动预警，点击预警消息里的链接即可进入 MINT 界面。
+
+![效果展示](/.res/images/example.gif)
